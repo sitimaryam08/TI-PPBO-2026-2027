@@ -1,4 +1,4 @@
-public class DataSaya {
+public class DataPribadi {
     public static void main(String[] args) {
         int umur = 19;
         double tinggiBadan = 156.0;
