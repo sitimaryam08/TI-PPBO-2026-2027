@@ -11,6 +11,15 @@ public class VaribelDemo {
         System.out.println("Tinggi: " + tinggi);
         System.out.println("Golongan darah: " +golDarah);
         System.out.println("Aktif: " + mahasiswaAktif);
+
+        // coba widening dan narrowing
+        int nilaiBulat = 9;
+        double nilaiDouble = nilaiBulat; //widening otomatis
+        System.out.println("Widening: " + nilaiDouble);
+
+        double pecahan = 9.8;
+        int hasilcasting = (int) pecahan; // narrowing eksplisit
+        System.out.println("Narrowing: " + hasilcasting);
 }
 
 }
