@@ -9,6 +9,6 @@ public class HelloWorld {
        // program menampilkan biodata sederhana
        System.out.println("Nama : Budi");
        /* Baris dibawah ini mencetak nim mahasiswa */
-       System.out.println("NIM : 12344");D
+       System.out.println("NIM : 12344");
         }
  }
