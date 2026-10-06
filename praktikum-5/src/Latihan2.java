@@ -1,0 +1,25 @@
+public class Latihan2 {
+    static boolean isPrrima(int n) {
+        if (n < 2) {
+            return false;
+        }
+
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("BILANGAN PRIMA 1-50:");
+
+        for (int i = 1; i <= 50; i++) {
+            if (isPrrima(i)) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+}
