@@ -3,6 +3,10 @@ public class LatihanClass {
         Mahasiswa m1 = new Mahasiswa(); //Constractor default
         Mahasiswa m2 = new Mahasiswa("Siti", "67890", 3.90); // berparameter
 
+        m2.tampilkanData();
+        System.out.println("Cumlaude? " + m2.isCumlaude());
+
+        System.out.println();
         System.out.println(m1.nama + " - " + m1.ipk);
         System.out.println(m2.nama + " - " + m2.ipk);
     }
