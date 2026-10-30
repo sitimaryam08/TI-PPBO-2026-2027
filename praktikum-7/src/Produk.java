@@ -1,5 +1,3 @@
-import java.util.StringTokenizer;
-
 public class Produk {
     private String kodeProduk;
     private String namaProduk;
