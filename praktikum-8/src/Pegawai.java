@@ -1,8 +1,8 @@
 public class Pegawai {
-    protected String nama;
-    protected String nip;
-    protected double gajiPokok;
-    protected double tunjanganjabatan;
+    private String nama;
+    private String nip;
+    private double gajiPokok;
+    private double tunjanganjabatan;
 
 
     public Pegawai(String nama, String nip, double gajiPokok) {
